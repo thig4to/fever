@@ -1,0 +1,48 @@
+BasedOnStyle: LLVM
+Language: Cpp
+ColumnLimit: 100
+
+# Indentação
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+ContinuationIndentWidth: 4
+IndentPPDirectives: None
+IndentCaseLabels: true
+
+# Ponteiros e referências junto ao tipo
+PointerAlignment: Left
+DerivePointerAlignment: false
+
+# Chaves {}
+BreakBeforeBraces: Allman
+
+# Sem blocos curtos na mesma linha
+AllowShortBlocksOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: true
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AcrossEmptyLines: false
+  AcrossComments: false
+  AlignCaseColons: false
+AllowShortLambdasOnASingleLine: None
+AllowShortEnumsOnASingleLine: false
+
+# Templates
+BreakTemplateDeclarations: Yes
+
+# Alinhamento: mantém como está
+AlignTrailingComments: true
+AlignAfterOpenBracket: DontAlign
+AlignOperands: DontAlign
+
+# Linhas em branco
+MaxEmptyLinesToKeep: 2
+KeepEmptyLinesAtTheStartOfBlocks: false
+KeepEmptyLines:
+  AtEndOfFile: false
+  AtStartOfBlock: false
+  AtStartOfFile: false
